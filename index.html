@@ -1,57 +1,149 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Websiteoptimization by shikeyou</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <meta name="description" content=" FILL ME IN ">
+    <meta name="author" content=" FILL ME IN ">
+    <title>Cameron Pittman: Portfolio</title>
+
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
+    <!--script async src="js/perfmatters.min.js"></script-->
+
+    <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
+    <!-- loading web fonts asynchronously, using the trick in the website below -->
+    <!-- http://keithclark.co.uk/articles/loading-css-without-blocking-render/ -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+
+    <style>
+
+      /* inline style.css */
+
+      html {
+        font-size: 100%;
+        overflow-y: scroll;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: none;
+      }
+      body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
+      body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
+
+      a { color: #12C; }
+      a:visited { color: #61C; }
+      a:focus { outline: thin dotted; }
+      a:hover, a:active { color: #c00; outline: 0; }
+
+      b, strong { font-weight: bold; }
+      pre, code { font-family: monospace, monospace; font-size: 1em; }
+      ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
+      img { border: 0; max-width: 100%; }
+
+      body { background: #fff; }
+      header, footer, .container { max-width: 45em; margin: 0 auto; }
+
+      header { padding: 0 0.5em; color: #C90B0B; }
+      header img { border-radius: 40px; float: left; }
+      header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
+      header p span { font-size: 0.8em; font-weight: normal;}
+
+      .hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+      }
+
+      .content { padding: 1em 1em; }
+      .content li { list-style-type: none; font-size: 1.1em;}
+      li img { float:left; padding-right: 1em; }
+      li p { font-size: 0.9em; font-style: italic; }
+
+      footer {
+        padding: 0 0.5em;
+        border-top: 1px solid #ccc;
+      }
+      footer span { float: right; font-style: italic; }
+
+      /* Smartphones (portrait) */
+      @media only screen and (max-width: 480px) {
+        body { font-size: 12px; }
+        header p { padding-left: 4.5em;}
+      }
+    </style>
+    <link href="css/print.min.css" rel="stylesheet" media="print">
+
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Websiteoptimization</h1>
-      <h2 class="project-tagline">Udacity Front-End Web Developer Nanodegree Project 4</h2>
-      <a href="https://github.com/shikeyou/WebsiteOptimization" class="btn">View on GitHub</a>
-      <a href="https://github.com/shikeyou/WebsiteOptimization/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/shikeyou/WebsiteOptimization/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <header>
+      <a href="/"><img src="img/profilepic.jpg"></a>
+      <p>Cameron Pittman<br><span>Course Developer</span></p>
+    </header>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <div class="container">
+      <div class="hero">
+        <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :) <br> Contact me: me@email.com
+      </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+      <div class="content">
+        <ul>
+          <li>
+            <img src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s100">
+            <a href="project-2048.html">Build Your Own 2048!</a>
+            <p>I made my own version of 2048. How cool is that!?</p>
+          </li>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+          <li>
+            <img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100">
+            <a href="project-webperf.html">Website Performance Optimization</a>
+            <p>Hey... this class looks familiar.</p>
+          </li>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+          <li>
+            <img src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100">
+            <a href="project-mobile.html">Mobile Web Development</a>
+            <p>Making mobile apps isn't so hard after all.</p>
+          </li>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+          <li>
+            <img style="width: 100px;" src="views/images/pizzeria-small.jpg">
+            <a href="views/pizza.html">Cam's Pizzeria</a>
+            <p>Who wants a performant pizza?</p>
+          </li>
+        </ul>
+    </div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+    <footer>
+      <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
+    </footer>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+    <script>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+      // inline perfmatters.js
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+      // Measuring the Critical Rendering Path with Navigation Timing
+      // https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+      function logCRP() {
+        var t = window.performance.timing,
+          dcl = t.domContentLoadedEventStart - t.domLoading,
+          complete = t.domComplete - t.domLoading;
+        var stats = document.getElementById("crp-stats");
+        stats.textContent = 'DCL: ' + dcl + 'ms, onload: ' + complete + 'ms';
+      }
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/shikeyou/WebsiteOptimization">Websiteoptimization</a> is maintained by <a href="https://github.com/shikeyou">shikeyou</a>.</span>
+      window.addEventListener("load", function(event) {
+        logCRP();
+      });
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+    </script>
 
-    </section>
+    <script>
+      (function(w,g){w['GoogleAnalyticsObject']=g;
+      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
 
-  
+      // TODO: replace with your Google Analytics profile ID.
+      ga('create', 'UA-XXXX-Y');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
